@@ -1,0 +1,489 @@
+:root {
+  --brand-color: #212121;
+  --hover-color: #2196f3;
+  --studio-color: #000000;
+  --contacts-color: #757575;
+  --white-color: #ffffff;
+  --footer-color: #2f303a;
+  --link-color: #ffffff99;
+  --backgrund-button:#F5F4FA; 
+  --border-buttom:#ECECEC;
+  --company-color:#AFB1B8; 
+  --font-primary: "Roboto", sans-serif; 
+  --font-secondary: "Raleway", sans-serif;  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* style dla body na obóch stronach */
+body {
+  font-family: var(--font-primary);
+  color: var(--brand-color);
+  font-size: 18px;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.section{
+  padding: 94px 0;
+}
+
+/* style dla logo na obóch stronach */
+.logo {
+  font-family: var(--font-secondary);
+  font-style: bold;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.3;
+  color: var(--hover-color);
+  margin-right: 93px;
+}
+
+.studio {
+  color: var(--studio-color);
+}
+
+.studio2 {
+  color: var(--white-color);
+}
+
+/* Style dla header na obuch stronach */
+.solution-container{
+  border-bottom: 1px solid var(--border-buttom);
+}
+
+.container-header {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-primary);
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* style dla konkaktów w header na obóch stronach */
+.contacts-size {
+  display: flex;
+  gap:46px;
+}
+
+.icon-envelope{
+  width:16px;
+  height:12px;
+  margin-right:10px;
+  fill: var(--contacts-color);
+}
+
+.icon-smartphone{
+  width:10px;
+  height:16px;
+  margin-right:10px;
+  fill: var(--contacts-color);
+}
+
+.icon-envelope:hover,
+.icon-envelope:focus,
+.icon-smartphone:hover,
+.icon-smartphone:focus{
+  fill: var(--hover-color);
+}
+
+
+.contacts-size2 {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--contacts-color);
+  gap: 50px;
+}
+
+.contacts-size a {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--brand-color);
+}
+
+.contacts-size:hover,
+.contacts-size:focus,
+.contacts-size2:hover,
+.contacts-size2:focus,
+.contacts-size-down:hover,
+.contacts-size-down:focus,
+.link-tab:hover,
+.link-tab:focus {
+  color: var(--hover-color);
+}
+
+.link-tab {
+  color: var(--contacts-color);
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+  
+}
+
+/* style dla h1 w index.html */
+.box1 {
+  text-align:center;
+  background: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  url("/images/img_background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.effects {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--white-color);
+  margin-top: 200px;
+}
+/* Style dla przycisku w index.html */
+.order-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--brand-color);
+  background-color: var(--hover-color);
+  color: var(--white-color);
+  border: 1px solid var(--hover-color);
+  border-radius: 4px;
+  font-family: var(--font-primary);
+  font-weight: 700;
+  padding: 10px 41px 10px 42px;
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+/* style dla button w index.html */
+.button-index {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.8;
+  color: var(--white-color);
+}
+
+.button-index:hover,
+.button-index:focus,
+.button-port:hover,
+.button-port:focus {
+  font-size: 16px;
+  background-color: var(--hover-color);
+  color: var(--white-color);
+}
+
+.icons-index{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-bottom: 0;
+}
+
+.icon-antenna,
+.icon-clock,
+.icon-diagram,
+.icon-astronaut{
+  width: 270px;
+  height: 120px;
+}
+
+.text-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+/* style dla h3 w index.html */
+.lorem-header {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+/* style dla paragrafów w index.html */
+.lorem-content {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* style dla h3 w index.html */
+.two-level {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.section-padding{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.team {
+  background-color: var(--backgrund-button);
+}
+
+.card {
+  display: flex;
+  column-gap: 30px;
+  margin-top: 50px;
+}
+
+.image-card{
+  min-width: 100%;
+  min-height: 100%;
+}
+.shadow-card {
+  box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
+    0px 1px 3px 0px #0000001f;
+}
+
+/* style dla john done w index.html */
+.john {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+/* style dla stanowisk pracy john done w index.html */
+.john-job {
+  font-size: 16px;
+  line-height: 1.1;
+  color: var(--contacts-color);
+  margin: 10px 70px 30px 70px;
+}
+
+.text-image{
+  text-align: center;
+}
+
+/* Style dla portfolio.html */
+.button-list {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--brand-color);
+  display: flex;
+  column-gap: 8px;
+  margin-bottom: 50px;
+}
+
+/* Style dla przycisków w portfolio.html */
+.button-port{
+  border: 1px solid var(--backgrund-button);
+  border-radius: 4px;
+  color: var(--brand-color);
+  font-family: var(--font-primary);
+  font-weight: 500;
+  padding: 6px 22px 6px 22px;
+}
+
+.button-port:hover{
+    box-shadow: 0px 2px 2px 0px #0000001F, 0px 1px 2px 0px #00000014, 
+    0px 3px 1px 0px #0000001A;
+    
+}
+
+/* Style dla kart portfolio.html  */
+.container-card{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.border-card{
+  border: 1px solid #EEEEEE;
+  cursor: pointer;
+}
+
+.border-card:hover,
+.border-card:focus{
+  box-shadow: 1px 4px 6px 0px #00000029,
+ 0px 4px 4px 0px #0000000F, 0px 1px 1px 0px #0000001F;
+}
+
+/* style dla nazw zdjęć portfolio.html */
+.img-name {
+  font-size: 18px;
+  line-height: 2;
+  padding: 20px 24px 4px 24px;
+}
+
+/* style dla opisu zdjęć portfolio.html */
+.img-descripcion {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--contacts-color);
+  padding: 4px 24px 20px 24px;
+}
+
+.companies{
+  display: flex;
+  gap:30px;
+  margin-top: 50px;
+}
+
+.companies:hover{
+  color: var(--hover-color);
+  cursor:pointer;
+}
+
+.icon-company1:hover,
+.icon-company1:focus,
+.icon-company2:hover,
+.icon-company2:focus,
+.icon-company3:hover,
+.icon-company3:focus,
+.icon-company4:hover,
+.icon-company4:focus,
+.icon-company5:hover,
+.icon-company5:focus,
+.icon-company6:hover,
+.icon-company6:focus{
+  fill: var(--hover-color);
+  cursor:pointer;
+  border: 1px solid var(--hover-color);
+}
+
+.icon-company1,
+.icon-company2,
+.icon-company3,
+.icon-company4,
+.icon-company5,
+.icon-company6{
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  fill:var(--company-color);
+  padding: 32px 17.71px 14.25px 32px;
+}
+
+/* style dla kontaktów w footerze portfolio.html */
+.contacts-size3 a {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.link-color-button {
+  color:var(--contacts-color);
+  padding-top: 9px; 
+}
+
+/* style dla adresu w footerze portfolio.html */
+.adress-size {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--white-color);
+  margin-top:20px;
+  font-style: normal;
+}
+
+.text-join{
+  font-family:var(--font-primary);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--white-color);
+}
+
+
+.social-media{
+  display: flex;
+  margin-top:20px;
+  list-style: none;
+}
+
+.social-media-icons{
+  margin-right:10px;
+}
+
+.social-media-links{
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brand-color);
+}
+
+.icon-instagram,
+.icon-twitter,
+.icon-facebook,
+.icon-in{
+  width: 44px;
+  height: 44px;
+  fill: var(--company-color);
+  padding: 12px 11.97px 12px 11.04px;
+  
+}
+
+.icon-instagram:hover,
+.icon-instagram:focus,
+.icon-twitter:hover,
+.icon-twitter:focus,
+.icon-facebook:hover,
+.icon-facebook:focus,
+.icon-in:hover,
+.icon-in:focus{
+  background-color: var(--hover-color);
+  cursor: pointer;
+  fill: var(--white-color);
+  border-radius: 50%;
+  
+}
+
+.contacts-footer{
+  margin-top: 60px;
+ margin-bottom: 60px;
+}
+
+.join-footer{
+  margin-top: 72px;
+  margin-bottom: 100px;
+  margin-left: 171px;
+}
+
+.footer {
+  display: flex;
+  background-color: var(--footer-color);
+  padding-left: 215px;
+}
