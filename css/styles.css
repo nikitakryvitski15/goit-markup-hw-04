@@ -6,11 +6,11 @@
   --white-color: #ffffff;
   --footer-color: #2f303a;
   --link-color: #ffffff99;
-  --backgrund-button:#F5F4FA; 
-  --border-buttom:#ECECEC;
-  --company-color:#AFB1B8; 
-  --font-primary: "Roboto", sans-serif; 
-  --font-secondary: "Raleway", sans-serif;  
+  --backgrund-button: #f5f4fa;
+  --border-buttom: #ececec;
+  --company-color: #afb1b8;
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Raleway", sans-serif;
 }
 
 * {
@@ -38,18 +38,17 @@ body {
 }
 
 .container {
-max-width: 1200px;
-margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.section{
+.section {
   padding: 94px 0;
 }
 
 /* style dla logo na obóch stronach */
 .logo {
   font-family: var(--font-secondary);
-  font-style: bold;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.3;
@@ -66,7 +65,7 @@ margin: 0 auto;
 }
 
 /* Style dla header na obuch stronach */
-.solution-container{
+.solution-container {
   border-bottom: 1px solid var(--border-buttom);
 }
 
@@ -86,36 +85,34 @@ ul {
 .nav-menu {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 /* style dla konkaktów w header na obóch stronach */
 .contacts-size {
   display: flex;
-  gap:46px;
+  gap: 46px;
 }
 
-.icon-envelope{
-  width:16px;
-  height:12px;
-  margin-right:10px;
+.icon-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
   fill: var(--contacts-color);
 }
 
-.icon-smartphone{
-  width:10px;
-  height:16px;
-  margin-right:10px;
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
   fill: var(--contacts-color);
 }
 
 .icon-envelope:hover,
 .icon-envelope:focus,
 .icon-smartphone:hover,
-.icon-smartphone:focus{
+.icon-smartphone:focus {
   fill: var(--hover-color);
 }
-
 
 .contacts-size2 {
   display: flex;
@@ -148,16 +145,22 @@ ul {
   font-size: 14px;
   font-weight: 500;
   display: flex;
- justify-content: space-between;
- align-items: center;
-  
+}
+
+.link-tab:hover,
+.link-tab:focus {
+  fill: var(--hover-color);
 }
 
 /* style dla h1 w index.html */
 .box1 {
-  text-align:center;
-  background: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-  url("/images/img_background1.jpg");
+  text-align: center;
+  background: linear-gradient(
+      to top,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/img_background1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -173,7 +176,6 @@ ul {
 .order-text {
   font-size: 16px;
   line-height: 1.6;
-  color: var(--brand-color);
   background-color: var(--hover-color);
   color: var(--white-color);
   border: 1px solid var(--hover-color);
@@ -201,30 +203,39 @@ ul {
   color: var(--white-color);
 }
 
-.icons-index{
+.button-port:hover,
+.button-port:focus {
+  box-shadow: 0px 2px 2px 0px #0000001f, 0px 1px 2px 0px #00000014,
+    0px 3px 1px 0px #0000001a;
+}
+
+.icons-index {
   display: flex;
   justify-content: space-between;
   padding-right: 30px;
+}
+
+.padding-icons {
   padding-bottom: 0;
 }
 
 .icon-antenna,
 .icon-clock,
 .icon-diagram,
-.icon-astronaut{
+.icon-astronaut {
   width: 270px;
   height: 120px;
 }
 
 .text-column {
   display: flex;
-  justify-content: space-between;
 }
 
 .photo {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
+  padding-bottom: 94px;
 }
 
 /* style dla h3 w index.html */
@@ -248,7 +259,7 @@ ul {
   text-align: center;
 }
 
-.section-padding{
+.section-padding {
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -263,13 +274,15 @@ ul {
   margin-top: 50px;
 }
 
-.image-card{
+.image-card {
   min-width: 100%;
   min-height: 100%;
+  padding-bottom: 30px;
 }
 .shadow-card {
   box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
     0px 1px 3px 0px #0000001f;
+  background-color: var(--white-color);
 }
 
 /* style dla john done w index.html */
@@ -278,8 +291,6 @@ ul {
   font-weight: 500;
   line-height: 1.1;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 10px;
 }
 
 /* style dla stanowisk pracy john done w index.html */
@@ -287,16 +298,16 @@ ul {
   font-size: 16px;
   line-height: 1.1;
   color: var(--contacts-color);
-  margin: 10px 70px 30px 70px;
+  padding-top: 10px;
+  padding-bottom: 16px;
 }
 
-.text-image{
+.text-image {
   text-align: center;
 }
 
 /* Style dla portfolio.html */
 .button-list {
-  display: flex;
   justify-content: center;
   font-size: 16px;
   line-height: 1.6;
@@ -307,7 +318,7 @@ ul {
 }
 
 /* Style dla przycisków w portfolio.html */
-.button-port{
+.button-port {
   border: 1px solid var(--backgrund-button);
   border-radius: 4px;
   color: var(--brand-color);
@@ -316,28 +327,27 @@ ul {
   padding: 6px 22px 6px 22px;
 }
 
-.button-port:hover{
-    box-shadow: 0px 2px 2px 0px #0000001F, 0px 1px 2px 0px #00000014, 
-    0px 3px 1px 0px #0000001A;
-    
+.button-port:hover {
+  box-shadow: 0px 2px 2px 0px #0000001f, 0px 1px 2px 0px #00000014,
+    0px 3px 1px 0px #0000001a;
 }
 
 /* Style dla kart portfolio.html  */
-.container-card{
-  display:flex;
+.container-card {
+  display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.border-card{
-  border: 1px solid #EEEEEE;
+.border-card {
+  border: 1px solid #eeeeee;
   cursor: pointer;
 }
 
 .border-card:hover,
-.border-card:focus{
-  box-shadow: 1px 4px 6px 0px #00000029,
- 0px 4px 4px 0px #0000000F, 0px 1px 1px 0px #0000001F;
+.border-card:focus {
+  box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f,
+    0px 1px 1px 0px #0000001f;
 }
 
 /* style dla nazw zdjęć portfolio.html */
@@ -355,45 +365,30 @@ ul {
   padding: 4px 24px 20px 24px;
 }
 
-.companies{
+.companies {
   display: flex;
-  gap:30px;
+  gap: 30px;
   margin-top: 50px;
 }
 
-.companies:hover{
+.companies:hover {
   color: var(--hover-color);
-  cursor:pointer;
+  cursor: pointer;
 }
 
-.icon-company1:hover,
-.icon-company1:focus,
-.icon-company2:hover,
-.icon-company2:focus,
-.icon-company3:hover,
-.icon-company3:focus,
-.icon-company4:hover,
-.icon-company4:focus,
-.icon-company5:hover,
-.icon-company5:focus,
-.icon-company6:hover,
-.icon-company6:focus{
+.icon-company:hover,
+.icon-company:focus {
   fill: var(--hover-color);
-  cursor:pointer;
+  cursor: pointer;
   border: 1px solid var(--hover-color);
 }
 
-.icon-company1,
-.icon-company2,
-.icon-company3,
-.icon-company4,
-.icon-company5,
-.icon-company6{
+.icon-company {
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
-  fill:var(--company-color);
+  fill: var(--company-color);
   padding: 32px 17.71px 14.25px 32px;
 }
 
@@ -405,8 +400,8 @@ ul {
 }
 
 .link-color-button {
-  color:var(--contacts-color);
-  padding-top: 9px; 
+  color: var(--contacts-color);
+  padding-top: 9px;
 }
 
 /* style dla adresu w footerze portfolio.html */
@@ -414,46 +409,40 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   color: var(--white-color);
-  margin-top:20px;
+  margin-top: 20px;
   font-style: normal;
 }
 
-.text-join{
-  font-family:var(--font-primary);
+.text-join {
+  font-family: var(--font-primary);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   color: var(--white-color);
 }
 
-
-.social-media{
+.social-media {
   display: flex;
-  margin-top:20px;
-  list-style: none;
+  margin-top: 20px;
 }
 
-.social-media-icons{
-  margin-right:10px;
+.social-media-icons {
+  margin-right: 10px;
 }
 
-.social-media-links{
+.social-media-links {
   display: flex;
   border-radius: 50%;
-  justify-content: center;
-  align-items: center;
   background-color: var(--brand-color);
 }
 
 .icon-instagram,
 .icon-twitter,
 .icon-facebook,
-.icon-in{
+.icon-in {
   width: 44px;
   height: 44px;
   fill: var(--company-color);
-  padding: 12px 11.97px 12px 11.04px;
-  
 }
 
 .icon-instagram:hover,
@@ -463,27 +452,22 @@ ul {
 .icon-facebook:hover,
 .icon-facebook:focus,
 .icon-in:hover,
-.icon-in:focus{
+.icon-in:focus {
   background-color: var(--hover-color);
   cursor: pointer;
   fill: var(--white-color);
-  border-radius: 50%;
-  
 }
 
-.contacts-footer{
+.contacts-footer {
   margin-top: 60px;
- margin-bottom: 60px;
 }
 
-.join-footer{
+.join-footer {
   margin-top: 72px;
-  margin-bottom: 100px;
   margin-left: 171px;
 }
 
 .footer {
   display: flex;
   background-color: var(--footer-color);
-  padding-left: 215px;
 }
