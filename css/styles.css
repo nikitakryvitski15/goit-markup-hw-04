@@ -11,46 +11,38 @@
   --company-color: #afb1b8;
   --font-primary: "Roboto", sans-serif;
   --font-secondary: "Raleway", sans-serif;
+  --icon-footer-color: #ffffff1a;
 }
-
 * {
   margin: 0;
   padding: 0;
 }
-
 ul {
   list-style: none;
 }
-
 a {
   text-decoration: none;
 }
-
 button {
   cursor: pointer;
 }
-
 /* style dla body na obóch stronach */
 body {
   font-family: var(--font-primary);
   color: var(--brand-color);
   font-size: 18px;
 }
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 .section {
   padding: 94px 0;
 }
-
 /* Style dla header na obuch stronach */
 .solution-container {
   border-bottom: 1px solid var(--border-buttom);
 }
-
 .container-header {
   display: flex;
   height: 80px;
@@ -59,16 +51,13 @@ body {
   font-family: var(--font-primary);
   font-weight: 500;
 }
-
 ul {
   list-style: none;
 }
-
 .nav-menu {
   display: flex;
   align-items: center;
 }
-
 /* style dla logo na obóch stronach */
 .logo {
   font-family: var(--font-secondary);
@@ -78,17 +67,14 @@ ul {
   color: var(--hover-color);
   margin-right: 93px;
 }
-
 .studio {
   color: var(--studio-color);
 }
-
 /* style dla konkaktów w header na obóch stronach */
 .contacts-size {
   display: flex;
   gap: 46px;
 }
-
 .contacts-size2 {
   display: flex;
   font-size: 14px;
@@ -97,41 +83,35 @@ ul {
   color: var(--contacts-color);
   gap: 50px;
 }
-
 .contacts-size a {
   font-size: 14px;
   line-height: 1.6;
   color: var(--brand-color);
 }
-
 .link-tab {
   color: var(--contacts-color);
   font-size: 14px;
   font-weight: 500;
   display: flex;
 }
-
 .icon-envelope {
   width: 16px;
   height: 12px;
   margin-right: 10px;
   fill: currentColor;
 }
-
 .icon-smartphone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
   fill: currentColor;
 }
-
 .icon-envelope:hover,
 .icon-envelope:focus,
 .icon-smartphone:hover,
 .icon-smartphone:focus {
   fill: var(--hover-color);
 }
-
 .contacts-size:hover,
 .contacts-size:focus,
 .contacts-size2:hover,
@@ -142,7 +122,6 @@ ul {
 .link-tab:focus {
   color: var(--hover-color);
 }
-
 /* style dla h1 w index.html */
 .box1 {
   text-align: center;
@@ -155,7 +134,6 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .effects {
   font-size: 44px;
   font-weight: 700;
@@ -163,7 +141,6 @@ ul {
   color: var(--white-color);
   margin-top: 200px;
 }
-
 /* Style dla przycisku w index.html */
 .order-text {
   font-size: 16px;
@@ -178,13 +155,11 @@ ul {
   margin-top: 30px;
   margin-bottom: 200px;
 }
-
 /* style ikon przed "lorem" w index.html */
 .icons-index {
   display: flex;
   justify-content: space-between;
 }
-
 .icon-antenna,
 .icon-clock,
 .icon-diagram,
@@ -192,7 +167,6 @@ ul {
   width: 270px;
   height: 120px;
 }
-
 /* style dla h3 w index.html */
 .two-level {
   font-size: 36px;
@@ -200,12 +174,9 @@ ul {
   line-height: 1.1;
   text-align: center;
 }
-
 .section-padding {
   padding-top: 0;
-  padding-bottom: 0;
 }
-
 /* style dla h3 w index.html */
 .lorem-header {
   font-size: 14px;
@@ -214,47 +185,33 @@ ul {
   padding-top: 30px;
   padding-bottom: 10px;
 }
-
 /* style dla paragrafów w index.html */
 .lorem-content {
   font-size: 14px;
   line-height: 1.7;
 }
-
 .photo {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
-  padding-bottom: 94px;
 }
-
 .team {
   background-color: var(--backgrund-button);
 }
-
 .card {
   display: flex;
   column-gap: 30px;
   margin-top: 50px;
 }
-
 .shadow-card {
   box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
     0px 1px 3px 0px #0000001f;
   background-color: var(--white-color);
 }
-
-.image-card {
-  min-width: 100%;
-  min-height: 100%;
-}
-
 /* style dla john done w index.html */
-
 .text-image {
   text-align: center;
 }
-
 .john {
   font-size: 16px;
   font-weight: 500;
@@ -262,7 +219,6 @@ ul {
   text-align: center;
   padding-top: 30px;
 }
-
 /* style dla stanowisk pracy john done w index.html */
 .john-job {
   font-size: 16px;
@@ -271,7 +227,6 @@ ul {
   padding-top: 10px;
   padding-bottom: 16px;
 }
-
 /* style dla social-media john done w index.html */
 .icons-card {
   display: flex;
@@ -280,21 +235,17 @@ ul {
   gap: 10px;
   fill: currentColor;
 }
-
 .icons-card-links {
   padding: 12px;
   border-radius: 50%;
   fill: var(--company-color);
   display: flex;
 }
-
 .icons-card-links:hover,
 .icons-card-links:focus {
-  cursor: pointer;
   background-color: var(--hover-color);
   fill: var(--white-color);
 }
-
 /* style dla "nasi klienci" w index.html */
 .our-clients {
   display: flex;
@@ -302,7 +253,6 @@ ul {
   margin-top: 50px;
   fill: currentColor;
 }
-
 .companies-clients {
   width: 170px;
   height: 92px;
@@ -313,14 +263,12 @@ ul {
   align-items: center;
   fill: var(--company-color);
 }
-
 .companies-clients:hover,
 .companies-clients:focus {
   cursor: pointer;
   border: 1px solid var(--hover-color);
   fill: var(--hover-color);
 }
-
 /* Style dla portfolio.html */
 .button-list {
   justify-content: center;
@@ -331,7 +279,6 @@ ul {
   column-gap: 8px;
   margin-bottom: 50px;
 }
-
 /* Style dla przycisków w portfolio.html */
 .button-port {
   border: none;
@@ -341,7 +288,6 @@ ul {
   font-weight: 500;
   padding: 6px 22px 6px 22px;
 }
-
 .button-port:hover,
 .button-port:focus {
   font-size: 16px;
@@ -350,32 +296,27 @@ ul {
   box-shadow: 0px 2px 2px 0px #0000001f, 0px 1px 2px 0px #00000014,
     0px 3px 1px 0px #0000001a;
 }
-
 /* Style dla kart portfolio.html  */
 .container-card {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-
 .border-card {
   border: 1px solid #eeeeee;
   cursor: pointer;
 }
-
 .border-card:hover,
 .border-card:focus {
   box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f,
     0px 1px 1px 0px #0000001f;
 }
-
 /* style dla nazw zdjęć portfolio.html */
 .img-name {
   font-size: 18px;
   line-height: 2;
   padding: 20px 24px 4px 24px;
 }
-
 /* style dla opisu zdjęć portfolio.html */
 .img-descripcion {
   font-size: 16px;
@@ -383,31 +324,25 @@ ul {
   color: var(--contacts-color);
   padding: 4px 24px 20px 24px;
 }
-
 /* style dla footeru na obuch stronach */
 .footer {
   background-color: var(--footer-color);
 }
-
 .container-footer {
   display: flex;
 }
-
 .contacts-footer {
-  margin: 60px;
+  padding: 60px;
 }
-
 .studio2 {
   color: var(--white-color);
 }
-
 /* style dla kontaktów w footerze portfolio.html */
 .contacts-size3 a {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
 }
-
 /* style dla adresu w footerze portfolio.html */
 .adress-size {
   font-size: 14px;
@@ -416,17 +351,13 @@ ul {
   margin-top: 20px;
   font-style: normal;
 }
-
 .link-color-button {
   color: var(--contacts-color);
   padding-top: 9px;
 }
-
 .join-footer {
   margin-top: 72px;
-  margin-left: 171px;
 }
-
 .text-join {
   font-family: var(--font-primary);
   font-weight: 700;
@@ -434,29 +365,24 @@ ul {
   line-height: 1.14;
   color: var(--white-color);
 }
-
 .social-media {
   display: flex;
   margin-top: 20px;
 }
-
 .social-media-icons {
   margin-right: 10px;
 }
-
 .social-media-links {
   display: flex;
   border-radius: 50%;
-  background-color: var(--brand-color);
+  background-color: var(--icon-footer-color);
   padding: 12px;
 }
-
 .social-media-links:hover,
 .social-media-links:focus {
   background-color: var(--hover-color);
   cursor: pointer;
 }
-
 .icon-footer {
   fill: var(--white-color);
 }
